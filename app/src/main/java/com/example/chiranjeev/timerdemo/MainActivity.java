@@ -19,7 +19,8 @@ package com.example.chiranjeev.timerdemo;
  * the countdown interval specifies at what interval the code would be repeated
  * the onTick() method has the code that will repepeat after the specified interval ,
  * the millsUntilFinished param gives the countdown in milliseconds from the countdown interval time
- * the onFinish() method contents are called when the millsInFuture time runs out and the onTick() method stops repeatedly executing
+ * the onFinish() method contents are called when the millsInFuture time runs out and the onTick() method stops repeatedly executing,
+ * and then finally start() the countdown Timer object
  */
 
 import android.os.CountDownTimer;
